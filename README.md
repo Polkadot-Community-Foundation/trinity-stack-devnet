@@ -16,6 +16,10 @@ polkadotapp://stack?url=https%3A%2F%2Fstack.api.polkadotcommunity.foundation%2F.
 
 The descriptor is unsigned, so readers trust it through TLS on this host.
 
+The RPC lists hold every public endpoint that reports the chain's genesis hash, has a finalized head within 50 blocks
+of the best one seen, and serves both the `chainHead_v1` and the legacy `state_*`/`author_*` methods. People endpoints
+also serve the statement store, because the descriptor marks that chain `statementStore`.
+
 ## Files
 
 | File                             | What it is                                                           |

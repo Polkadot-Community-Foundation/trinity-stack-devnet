@@ -13,7 +13,10 @@
       "genesisHash": "0x374057be67b355151f271ff70c3db98308c62c8adc48dc6724b6a009a1a014fd",
       "role": "Relay",
       "rpc": [
-        "wss://paseo-rpc.n.dwellir.com"
+        "wss://paseo-rpc.n.dwellir.com",
+        "wss://paseo-v2.rpc.turboflakes.io",
+        "wss://rpc-paseo.stakeworld.io",
+        "wss://rpc.interweb-it.com/paseo"
       ]
     },
     {
@@ -21,7 +24,8 @@
       "paraId": 1000,
       "role": "AssetHub",
       "rpc": [
-        "wss://asset-hub-paseo-rpc.n.dwellir.com"
+        "wss://asset-hub-paseo-rpc.n.dwellir.com",
+        "wss://sys.turboflakes.io/asset-hub-paseo"
       ]
     },
     {
@@ -30,7 +34,9 @@
       "role": "People",
       "rpc": [
         "wss://people-devnet-rpc.api.polkadotcommunity.foundation",
-        "wss://people-paseo.rotko.net"
+        "wss://people-paseo.gatotech.network",
+        "wss://people-paseo.rotko.net",
+        "wss://rpc.interweb-it.com/people-paseo"
       ],
       "statementStore": true
     },
@@ -39,6 +45,8 @@
       "paraId": 1010,
       "role": "Bulletin",
       "rpc": [
+        "wss://bullet.sik.rocks",
+        "wss://bullet.tunastaking.eu",
         "wss://bulletin-paseo.tservices.es:8443"
       ]
     }
@@ -54,7 +62,7 @@
   "id": "pcf-devnet",
   "name": "PCF Devnet",
   "network": "paseo",
-  "sequence": 1792587196,
+  "sequence": 1792589069,
   "services": [
     {
       "kind": "dub",
