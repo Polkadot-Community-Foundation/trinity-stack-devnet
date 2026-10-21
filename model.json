@@ -1,0 +1,43 @@
+{
+  "id": "pcf-devnet",
+  "name": "PCF Devnet",
+  "network": "paseo",
+  "tld": "dot",
+  "chains": [
+    {
+      "role": "Relay",
+      "genesisHash": "0x374057be67b355151f271ff70c3db98308c62c8adc48dc6724b6a009a1a014fd",
+      "rpc": ["wss://paseo-rpc.n.dwellir.com"]
+    },
+    {
+      "role": "AssetHub",
+      "paraId": 1000,
+      "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+      "rpc": ["wss://asset-hub-paseo-rpc.n.dwellir.com"]
+    },
+    {
+      "role": "People",
+      "paraId": 1004,
+      "genesisHash": "0xe6c30d6e148f250b887105237bcaa5cb9f16dd203bf7b5b9d4f1da7387cb86ec",
+      "rpc": ["wss://people-devnet-rpc.api.polkadotcommunity.foundation", "wss://people-paseo.rotko.net"],
+      "statementStore": true
+    },
+    {
+      "role": "Bulletin",
+      "paraId": 1010,
+      "genesisHash": "0xe101f0fa4627d29a257645e02be86d80378fea1a2bf8fa6a918d150ebc760a59",
+      "rpc": ["wss://bulletin-paseo.tservices.es:8443"]
+    }
+  ],
+  "services": [
+    { "kind": "dub", "urls": ["https://polkadot-app.api.polkadotcommunity.foundation/"] },
+    { "kind": "turn", "urls": ["https://polkadot-app.api.polkadotcommunity.foundation/"] },
+    { "kind": "stun", "urls": ["stun:turn.api.polkadotcommunity.foundation:3478"] },
+    { "kind": "ipfs-gateway", "urls": ["https://devnet-ipfs.api.polkadotcommunity.foundation/ipfs/"] },
+    { "kind": "hop", "urls": ["wss://bulletin-paseo.tservices.es:8443"] },
+    { "kind": "eth-rpc", "urls": ["https://eth-rpc-testnet.polkadot.io"], "chainId": 420420417 }
+  ],
+  "assets": [{ "role": "payment", "chain": "AssetHub", "pallet": "Assets", "id": 50000413 }],
+  "contracts": { "accountDataStore": "0x58c9963308c7735cf72ab633e8a9d892f5ab9e05" },
+  "coinage": { "chain": "People", "instance": 0 }
+}

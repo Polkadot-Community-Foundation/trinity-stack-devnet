@@ -1,0 +1,98 @@
+{
+  "$v": 1,
+  "assets": [
+    {
+      "chain": "AssetHub",
+      "id": 50000413,
+      "pallet": "Assets",
+      "role": "payment"
+    }
+  ],
+  "chains": [
+    {
+      "genesisHash": "0x374057be67b355151f271ff70c3db98308c62c8adc48dc6724b6a009a1a014fd",
+      "role": "Relay",
+      "rpc": [
+        "wss://paseo-rpc.n.dwellir.com"
+      ]
+    },
+    {
+      "genesisHash": "0xd6eec26135305a8ad257a20d003357284c8aa03d0bdb2b357ab0a22371e11ef2",
+      "paraId": 1000,
+      "role": "AssetHub",
+      "rpc": [
+        "wss://asset-hub-paseo-rpc.n.dwellir.com"
+      ]
+    },
+    {
+      "genesisHash": "0xe6c30d6e148f250b887105237bcaa5cb9f16dd203bf7b5b9d4f1da7387cb86ec",
+      "paraId": 1004,
+      "role": "People",
+      "rpc": [
+        "wss://people-devnet-rpc.api.polkadotcommunity.foundation",
+        "wss://people-paseo.rotko.net"
+      ],
+      "statementStore": true
+    },
+    {
+      "genesisHash": "0xe101f0fa4627d29a257645e02be86d80378fea1a2bf8fa6a918d150ebc760a59",
+      "paraId": 1010,
+      "role": "Bulletin",
+      "rpc": [
+        "wss://bulletin-paseo.tservices.es:8443"
+      ]
+    }
+  ],
+  "coinage": {
+    "chain": "People",
+    "instance": 0
+  },
+  "contracts": {
+    "accountDataStore": "0x58c9963308c7735cf72ab633e8a9d892f5ab9e05"
+  },
+  "generation": "0x374057be67b355151f271ff70c3db98308c62c8adc48dc6724b6a009a1a014fd",
+  "id": "pcf-devnet",
+  "name": "PCF Devnet",
+  "network": "paseo",
+  "sequence": 1792587196,
+  "services": [
+    {
+      "kind": "dub",
+      "urls": [
+        "https://polkadot-app.api.polkadotcommunity.foundation/"
+      ]
+    },
+    {
+      "kind": "turn",
+      "urls": [
+        "https://polkadot-app.api.polkadotcommunity.foundation/"
+      ]
+    },
+    {
+      "kind": "stun",
+      "urls": [
+        "stun:turn.api.polkadotcommunity.foundation:3478"
+      ]
+    },
+    {
+      "kind": "ipfs-gateway",
+      "urls": [
+        "https://devnet-ipfs.api.polkadotcommunity.foundation/ipfs/"
+      ]
+    },
+    {
+      "kind": "hop",
+      "urls": [
+        "wss://bulletin-paseo.tservices.es:8443"
+      ]
+    },
+    {
+      "chainId": 420420417,
+      "kind": "eth-rpc",
+      "urls": [
+        "https://eth-rpc-testnet.polkadot.io"
+      ]
+    }
+  ],
+  "tld": "dot"
+}
