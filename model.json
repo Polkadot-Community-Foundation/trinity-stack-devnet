@@ -94,7 +94,12 @@
     }
   ],
   "contracts": {
-    "accountDataStore": "0x58c9963308c7735cf72ab633e8a9d892f5ab9e05"
+    "accountDataStore": "0x58c9963308c7735cf72ab633e8a9d892f5ab9e05",
+    "dotnsRegistry": "0xb052e5efc5adeff1f21d48defb5169cb394a1a73",
+    "dotnsContentResolver": "0x7e75491ecfb04900eb05ee63caba2b33900aabb5",
+    "dotnsPopController": "0xc3a3edab753f91488fd84e6134b5b0325dc22452",
+    "dotnsPopResolver": "0x398912c9bb03180ff049f0e034fe2e0024fb8406",
+    "dotnsProtocolRegistry": "0xddf3d3838ff056f15602fc5a65927f185679c36f"
   },
   "coinage": {
     "chain": "People",
