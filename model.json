@@ -12,7 +12,15 @@
         "wss://paseo-v2.rpc.turboflakes.io",
         "wss://rpc-paseo.stakeworld.io",
         "wss://rpc.interweb-it.com/paseo"
-      ]
+      ],
+      "lightSpec": {
+        "url": "https://stack.api.polkadotcommunity.foundation/chainspecs/paseo.e609384a9fe1.smol.json",
+        "sha256": "0xe609384a9fe1cea3f8ea548e79270e55824e1241004ab695703fea04171d5557"
+      },
+      "fullSpec": {
+        "url": "https://raw.githubusercontent.com/paseo-network/paseo-chain-specs/dbd970191d0cb7f127c0a01d31acb393af8cdeef/paseo.raw.json",
+        "sha256": "0x05c2949ab4b040140416979f93620dee4ebc67b30a830e92d62e1cd76a6a8c2d"
+      }
     },
     {
       "role": "AssetHub",
@@ -21,7 +29,11 @@
       "rpc": [
         "wss://asset-hub-paseo-rpc.n.dwellir.com",
         "wss://sys.turboflakes.io/asset-hub-paseo"
-      ]
+      ],
+      "lightSpec": {
+        "url": "https://stack.api.polkadotcommunity.foundation/chainspecs/asset-hub-paseo.c2367d352294.smol.json",
+        "sha256": "0xc2367d352294a3a2a6eda094236a6396b505fd81d70b33d987e8a3eba22d4afc"
+      }
     },
     {
       "role": "People",
@@ -33,7 +45,15 @@
         "wss://people-paseo.rotko.net",
         "wss://rpc.interweb-it.com/people-paseo"
       ],
-      "statementStore": true
+      "statementStore": true,
+      "lightSpec": {
+        "url": "https://stack.api.polkadotcommunity.foundation/chainspecs/people-paseo.d1e5188e2293.smol.json",
+        "sha256": "0xd1e5188e22937e761581ab8b89fd69d70ebfafd9c19ee4ef0960094ad4c6274b"
+      },
+      "fullSpec": {
+        "url": "https://raw.githubusercontent.com/paseo-network/paseo-chain-specs/dbd970191d0cb7f127c0a01d31acb393af8cdeef/paseo-people.raw.json",
+        "sha256": "0xa20abf49e5c428cb4e92d7fe0b4a7d7d23a549a66aec00d213e80e731f4a7e74"
+      }
     },
     {
       "role": "Bulletin",
@@ -43,7 +63,15 @@
         "wss://bullet.sik.rocks",
         "wss://bullet.tunastaking.eu",
         "wss://bulletin-paseo.tservices.es:8443"
-      ]
+      ],
+      "lightSpec": {
+        "url": "https://stack.api.polkadotcommunity.foundation/chainspecs/bulletin-paseo.210ec13e69a7.smol.json",
+        "sha256": "0x210ec13e69a7e0fc0a2fc4068c9f77cc0b0385f5615ce1dc65495610a4c7d035"
+      },
+      "fullSpec": {
+        "url": "https://raw.githubusercontent.com/paseo-network/paseo-chain-specs/dbd970191d0cb7f127c0a01d31acb393af8cdeef/paseo-bulletin.raw.json",
+        "sha256": "0xad8c86d136b6ab3531ca63de9d8c48c99fb5180d2fa478f2dcb640c1da0848dd"
+      }
     }
   ],
   "services": [
