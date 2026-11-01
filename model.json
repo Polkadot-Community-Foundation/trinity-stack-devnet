@@ -141,6 +141,7 @@
     "controller": "0x59dcf8bfffa7239243785c3fc336d8bb22312e8c",
     "costModel": "0x3eb67102d99c1849169b0159f5147f54dfc51cb5",
     "create3Factory": "0x32b9ddd1bd1d721f3787c1fb1dc41cd3d40aac7a",
+    "multicall3": "0x92640655c5c7ee7e42f0b5ad68d205a8a767b81c",
     "nameEscrow": "0xb50269322010deef2afb162c009caf897971952c",
     "nameWhitelist": "0xee0a4539549d64548270f5f8bc47d3def17edecb",
     "popController": "0xc3a3edab753f91488fd84e6134b5b0325dc22452",
@@ -158,5 +159,5 @@
     "chain": "People",
     "instance": 0
   },
-  "validUntil": 1801303079
+  "validUntil": 1801304408
 }
