@@ -157,5 +157,6 @@
   "coinage": {
     "chain": "People",
     "instance": 0
-  }
+  },
+  "validUntil": 1801303079
 }
